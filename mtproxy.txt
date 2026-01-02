@@ -1,1 +1,2 @@
+openssl rand -hex 16
 sudo docker run -d --name mtproto-proxy --restart=always -p 80:443 -e SECRET=7d755b049a9bda2a31f307247991e443 telegrammessenger/proxy
