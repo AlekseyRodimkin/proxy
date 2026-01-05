@@ -2,7 +2,7 @@ services:
   socks5-proxy:
     build: .
     ports:
-      - "1080:1080"
+      - "8002:1080"
     environment:
       - PROXYUSER1=${PROXYUSER1}
       - PROXYPASS1=${PROXYPASS1}

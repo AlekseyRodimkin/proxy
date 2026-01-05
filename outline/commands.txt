@@ -1,0 +1,6 @@
+chmod +x install_server.sh
+
+sudo ./install_server.sh --api-port 9001 --keys-port 9002
+
+sudo ufw allow 9001/tcp
+sudo ufw allow 9002/tcp
